@@ -13,7 +13,7 @@ public class LeapYear {
 		boolean hundred = (year % 100 != 0);
 		boolean fourhundred = (year % 400 == 0);
 		boolean leapyear = ((four&&hundred) || fourhundred); 
-		System.out.println(year + " is a leap year: " + leapyear);
+		System.out.println(year + " is a leap year- " + leapyear);
 	}
 
 }
